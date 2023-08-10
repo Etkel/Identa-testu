@@ -19,7 +19,6 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @CreationTimestamp
-    @DateTimeFormat(pattern = "yyyy/MM/dd hh:mm:ss a")
     private LocalDateTime created;
     private Status status;
     @ManyToOne

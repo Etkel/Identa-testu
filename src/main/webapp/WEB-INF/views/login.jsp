@@ -24,6 +24,8 @@
             <p>Chao!</p>
         </c:if>
     </form>
+    <c:url value="/" var="indexUrl"/>
+    <p><a href="${indexUrl}">Back to main page</a></p>
 </div>
 
 

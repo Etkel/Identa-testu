@@ -6,7 +6,7 @@
     <title>Admin Page</title>
 </head>
 <body>
-
+<div align="center">
 <table border="1">
     <td>Id</td>
     <td>Date</td>
@@ -33,5 +33,8 @@
         </tr>
     </c:forEach>
 </table>
+    <c:url value="/" var="indexUrl"/>
+    <p><a href="${indexUrl}">To main page</a></p>
+</div>
 </body>
 </html>
